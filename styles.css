@@ -20,7 +20,7 @@ header {
 }
 
 #logo-mc {
-    margin: 5px 0px 0px 50px;
+    margin: 5px 0px 0px 37px;
     width: 108px;
     position: absolute;
 }
@@ -45,25 +45,18 @@ header {
 }
 
 #img-suscribete {
-    height: 30px;
+    height: 31px;
     margin-left: 40px;
 }
 
 .caja-tres {
     display: flex;
-    justify-content: center;
     align-items: baseline;
-}
-
-.nav-menu {
-    display: flex;
-    justify-content: space-evenly;
+    font-size: 13px;
 }
 
 .nav-menu-item {
-    display: flex;
-    justify-content: center;
-    margin-top: 27px;
+    margin: 22px 0px 0px 10px;
 }
 
 .nav-menu-list {
@@ -71,20 +64,40 @@ header {
     justify-content: space-around;
     max-width: 400px;
     font-size: 13px;
-}
-
-.nav-menu-list li {
-    /* margin: 30px 3px 5px 3px;*/
-    color: black;
+    margin: 0px 60px 0px 23.5px;
 }
 
 .usuarios {
     display: flex;
-    margin-left: 20px;
+    justify-content: space-evenly;
+    margin-left: 67px;
+    width: 263px;
+}
+
+#enviar-capital {
+    position: relative;
+    bottom: 15px;
+    left: 15px;
+}
+
+.nav-menu-cp-send {
+    font-size: 10px;
+    color: rgba(0, 0, 0, .5);
+    position: relative;
+    top: 3px;
+    left: 5px;
+}
+
+.nav-menu-link-cp {
+    color: #333;
+    position: relative;
+    left: 5px;
 }
 
 #ubicacion {
-    width: 10px;
+    width: 14.5px;
+    position: absolute;
+    top: 50px;
 }
 
 #carrito {
