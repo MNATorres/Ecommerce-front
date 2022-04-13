@@ -152,21 +152,25 @@ header {
 main {
     position: relative;
     width: 100%;
-    background-color: black;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 
 /* ===============================Comienza Banner================================== */
 
 .banner {
+    display: block;
     background-image: url("img/banner-principal.jpg");
     background-size: cover;
     width: 1600px;
     height: 180px;
     display: flex;
 }
+
+
+/* ===============================Termina Banner================================== */
 
 .perfil-hp {
     background-image: url("https://http2.mlstatic.com/D_NP_698488-MLA45917797720_052021-T.webp");
@@ -178,13 +182,43 @@ main {
     height: 98px;
     border: 4px solid rgb(255, 255, 255);
     border-radius: 4px;
-    margin: -50px 0px 0px 200px;
+    margin: 130px 0px 0px -900px;
     box-shadow: 0px 0px 5px 0.5px rgb(196, 196, 196);
 }
 
 .main-productos-categorias {
     max-width: 1215px;
-    padding-left: 10px;
-    padding-right: 28px;
     width: 100%;
+    display: flex;
+    background-color: yellow;
+    margin-top: 50px;
+}
+
+.categorias {
+    display: flex;
+    flex-direction: column;
+    max-width: 294px;
+    min-width: 210px;
+    padding-right: 14px;
+    width: 100%;
+    background-color: red;
+    margin: 10px
+}
+
+.title {}
+
+.llegan-hoy {}
+
+.productos {
+    background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+    width: 661px;
+}
+
+.producto-aleatorio {
+    width: 200px;
+    height: 300px;
+    background-color: aqua;
+    margin: 10px;
 }
