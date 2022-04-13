@@ -50,6 +50,14 @@ header {
     border-right: 1px solid rgb(197, 195, 195);
 }
 
+#lupa {
+    height: 13px;
+    position: absolute;
+    top: 13px;
+    right: 632px;
+    z-index: 99;
+}
+
 #input-busqueda {
     margin-left: 123px;
     width: 480px;
