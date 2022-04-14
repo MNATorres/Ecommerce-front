@@ -389,6 +389,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 12px;
 }
 
 
@@ -403,9 +404,48 @@ main {
     height: 159px;
 }
 
+.descripcion-primer-producto {
+    margin-top: 15px;
+    color: rgb(75, 75, 75);
+}
+
 .linea-producto {
     width: 100%;
     height: 2.5px;
     background: #ededed;
     margin-top: 45px;
+}
+
+.precio-producto-tachado {
+    font-size: 9px;
+    text-decoration: line-through;
+    color: rgb(163, 163, 163);
+}
+
+.precio-producto {
+    font-size: 18.5px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+}
+
+#descuento-producto {
+    font-size: 10px;
+    margin-left: 5.5px;
+    color: rgb(53, 185, 116);
+}
+
+.off-mercado-credito {
+    font-size: 11px;
+    color: rgb(38, 124, 253);
+    background-color: rgb(217, 231, 250);
+    padding: 0.5px 0.5px 0.5px 5px;
+    border-radius: 2px;
+    width: 150px;
+    margin-bottom: 7px;
+}
+
+.envio-gratis {
+    color: rgb(53, 175, 112);
+    margin-bottom: 8px;
 }
