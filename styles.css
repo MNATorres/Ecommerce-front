@@ -448,3 +448,69 @@ main {
     color: rgb(53, 175, 112);
     margin-bottom: 8px;
 }
+
+.pie-productos {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 1px 0.1px rgb(168, 168, 168);
+    width: 50%;
+    margin-left: 270px;
+    border-radius: 5px;
+    padding: 9px;
+    font-size: 10px;
+    color: rgb(163, 163, 163);
+}
+
+#alert {
+    width: 13px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.numeros-paginas {
+    display: flex;
+    height: 60px;
+    margin: 40px 0px 0px 270px;
+    align-items: baseline;
+    font-size: 14px;
+    color: #666;
+}
+
+#numeros-paginas-uno {
+    padding: 5px 10px 5px 10px;
+    background-color: rgb(218, 216, 216);
+    margin-right: 10px;
+    color: black;
+}
+
+.siguiente {
+    margin-left: 7px;
+    color: rgb(38, 124, 253);
+}
+
+.info-footer {
+    width: 100%;
+    display: flex;
+    background-color: white;
+    align-items: flex-end;
+}
+
+.pie-de-paginas {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-pie-pagina {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-top: 1px solid rgb(230, 227, 227);
+}
+
+.derechos-reservados {
+    background-color: white;
+}
