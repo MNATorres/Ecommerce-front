@@ -71,6 +71,7 @@ header {
     width: 480px;
     height: 30px;
     border: none;
+    box-shadow: 0px 0px 5px 0.5px rgb(194, 193, 193);
 }
 
 #img-suscribete {
@@ -190,20 +191,22 @@ main {
     max-width: 1215px;
     width: 100%;
     display: flex;
-    background-color: yellow;
     margin-top: 50px;
     justify-content: center;
 }
 
+
+/* ===============================Categorias================================== */
+
 .categorias {
     display: flex;
     flex-direction: column;
-    max-width: 278px;
+    max-width: 250px;
     min-width: 210px;
     padding: 10px;
     width: 100%;
-    background-color: red;
-    margin: 10px
+    margin: 10px;
+    font-size: 12px;
 }
 
 .title {
@@ -220,12 +223,12 @@ main {
 
 .llegan-hoy {
     width: 200px;
-    height: 55px;
+    height: 45px;
     background-color: white;
     padding: 17px;
     font-size: 14px;
     border-radius: 4px;
-    margin-top: 25px;
+    margin-top: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -234,25 +237,66 @@ main {
 
 .llegan-hoy-full {
     width: 200px;
-    height: 55px;
+    height: 60px;
     background-color: white;
     padding: 17px;
     font-size: 14px;
     border-radius: 4px;
-    margin-top: 25px;
+    margin-top: -8px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     box-shadow: 0px 0px 5px 0.5px rgb(196, 196, 196);
 }
 
+.llegan-hoy-full p {
+    font-size: 10px;
+}
+
+#par {
+    font-size: 14px;
+}
+
+.llegan-hoy-envio {
+    width: 200px;
+    height: 45px;
+    background-color: white;
+    padding: 17px;
+    font-size: 14px;
+    border-radius: 4px;
+    margin-top: -8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 5px 0.5px rgb(196, 196, 196);
+}
+
+.full-envios {
+    display: flex;
+    margin-top: 30px;
+}
+
+#p-full {
+    margin: -15px 0px 16px 0px;
+}
+
+#img-full {
+    width: 40px;
+}
+
+#par {
+    font-size: 13.5px;
+    margin-left: 3px;
+}
+
 .deslizar {
     position: relative;
+    top: 10px;
     display: flex;
     align-items: center;
-    width: 24px;
+    width: 27px;
     height: 16px;
-    background: #ededed;
+    background: #ebe6e6;
     border-radius: 8px;
 }
 
@@ -263,6 +307,7 @@ main {
     background-color: white;
     border-radius: 10px;
     box-shadow: 0px 0px 5px 0.9px rgb(168, 168, 168);
+    margin-top: 14px;
 }
 
 .productos {
@@ -277,4 +322,63 @@ main {
     height: 400px;
     background-color: aqua;
     margin: 10px;
+}
+
+.categorias div {
+    margin-bottom: 15px;
+}
+
+.categorias h3 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.categorias p {
+    margin: 3px;
+    color: #666;
+}
+
+
+/*input categorias*/
+
+.minimo-maximo {
+    max-width: 200px;
+    display: flex;
+    align-items: baseline;
+    align-content: center;
+}
+
+#minimo {
+    width: 70px;
+    font-size: 11px;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+.linea {
+    width: 10px;
+    height: 1px;
+    background-color: black;
+    margin-left: 5px;
+}
+
+#maximo {
+    width: 70px;
+    font-size: 11px;
+    padding: 3px;
+    border-radius: 3px;
+    margin-left: 5px;
+}
+
+.circulo {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(224, 224, 224);
+    border-radius: 10px;
+    margin: 1px 0 0 170px;
+}
+
+.entrega-envios {
+    display: flex;
 }
