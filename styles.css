@@ -232,7 +232,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0px 0px 5px 0.5px rgb(196, 196, 196);
+    box-shadow: 0px 0px 1px 0.1px rgb(168, 168, 168);
 }
 
 .llegan-hoy-full {
@@ -246,7 +246,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0px 0px 5px 0.5px rgb(196, 196, 196);
+    box-shadow: 0px 0px 1px 0.1px rgb(168, 168, 168);
 }
 
 .llegan-hoy-full p {
@@ -268,7 +268,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0px 0px 5px 0.5px rgb(196, 196, 196);
+    box-shadow: 0px 0px 1px 0.1px rgb(168, 168, 168);
 }
 
 .full-envios {
@@ -373,7 +373,6 @@ main {
 /* ===============================Productos================================== */
 
 .productos {
-    background-color: blue;
     display: flex;
     flex-wrap: wrap;
     width: 780px;
@@ -385,7 +384,7 @@ main {
     background-color: rgb(255, 255, 255);
     margin: 10px;
     border-radius: 5px;
-    box-shadow: 0px 0px 5px 0.9px rgb(168, 168, 168);
+    box-shadow: 0px 0px 1px 0.1px rgb(168, 168, 168);
     display: flex;
     flex-direction: column;
     align-items: center;
