@@ -493,24 +493,37 @@ main {
 .info-footer {
     width: 100%;
     display: flex;
-    background-color: white;
-    align-items: flex-end;
+    justify-content: center;
 }
 
-.pie-de-paginas {
+.info-footer p {
+    background-color: white;
+}
+
+footer {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: white;
 }
 
 .menu-pie-pagina {
     display: flex;
     align-items: center;
-    background-color: white;
-    border-top: 1px solid rgb(230, 227, 227);
+    font-size: 13px;
+    margin: 10px;
+}
+
+.footer-menu {
+    margin-left: 20px;
+    color: #666;
 }
 
 .derechos-reservados {
-    background-color: white;
+    color: #666;
+    font-size: 11px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
