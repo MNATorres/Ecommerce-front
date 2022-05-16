@@ -17,7 +17,7 @@ header {
     width: 100%;
     height: 85px;
     background-color: rgb(255, 241, 89);
-    padding: 5px 0px 10px 0px;
+    padding: 5px 0 10px;
     display: flex;
     justify-content: center;
     font-size: 14px;
@@ -31,14 +31,12 @@ header {
     cursor: pointer;
 }
 
-#logo-mc {
-    cursor: pointer;
-}
 
-#logo-mc {
-    margin: 5px 0px 0px 37px;
+.logo-mc {
+    margin: 5px 0p 0p 37px;
     width: 108px;
     position: absolute;
+    cursor: pointer;
 }
 
 .busqueda {
@@ -47,7 +45,7 @@ header {
     margin-left: 67px;
 }
 
-#input-checkbox {
+.input-checkbox {
     width: 11px;
     position: absolute;
     left: 383px;
@@ -57,7 +55,7 @@ header {
 
 .input-hp {
     box-sizing: content-box;
-    padding: 0px 5px 0px 25px;
+    padding: 0 5px 0 25px;
     position: absolute;
     margin-left: -25px;
     font-size: 12px;
@@ -68,14 +66,14 @@ header {
     border-right: 1px solid rgb(197, 195, 195);
 }
 
-#lupa {
+.lupa {
     height: 13px;
     position: absolute;
     top: 9px;
     right: 383px;
 }
 
-#input-busqueda {
+.input-busqueda-principal {
     padding-left: 11px;
     margin-left: 123px;
     width: 480px;
@@ -84,7 +82,7 @@ header {
     box-shadow: 0px 0px 5px 0.5px rgb(194, 193, 193);
 }
 
-#img-suscribete {
+.img-suscribete {
     height: 31px;
     margin-left: 40px;
 }
@@ -96,7 +94,7 @@ header {
 }
 
 .nav-menu-item {
-    margin: 22px 0px 0px 0px;
+    margin-top: 22px;
 }
 
 .nav-menu-item-link {
@@ -116,7 +114,7 @@ header {
     justify-content: space-around;
     width: 443px;
     font-size: 13px;
-    margin: 0px 60px 0px 23.5px;
+    margin: 0 60px 0px 23.5px;
 }
 
 .usuarios {
@@ -126,7 +124,7 @@ header {
     width: 263px;
 }
 
-#enviar-capital {
+.enviar-capital {
     position: relative;
     bottom: 15px;
     left: 15px;
@@ -146,13 +144,13 @@ header {
     left: 5px;
 }
 
-#ubicacion {
+.ubicacion-icono {
     width: 14.5px;
     position: absolute;
     top: 50px;
 }
 
-#carrito {
+.carrito {
     width: 16px;
     height: 13px;
 }
@@ -193,7 +191,7 @@ main {
     height: 98px;
     border: 4px solid rgb(255, 255, 255);
     border-radius: 4px;
-    margin: 130px 0px 0px -900px;
+    margin: 130px 0 0 -900px;
     box-shadow: 0px 0px 5px 0.5px rgb(196, 196, 196);
     cursor: pointer;
 }
@@ -232,11 +230,11 @@ main {
     margin-top: 13px;
 }
 
-#tiendas-oficiales {
+.tiendas-oficiales {
     cursor: pointer;
 }
 
-#result {
+.result {
     cursor: default;
 }
 
@@ -274,8 +272,9 @@ main {
     font-size: 10px;
 }
 
-#par {
+.par {
     font-size: 14px;
+    margin-left: 3px;
 }
 
 .llegan-hoy-envio {
@@ -298,18 +297,14 @@ main {
     margin-top: 30px;
 }
 
-#p-full {
-    margin: -15px 0px 16px 0px;
+.p-full {
+    margin: -15px 0 16px 0px;
 }
 
-#img-full {
+.img-full {
     width: 40px;
 }
 
-#par {
-    font-size: 13.5px;
-    margin-left: 3px;
-}
 
 .deslizar {
     position: relative;
@@ -357,7 +352,7 @@ main {
     align-content: center;
 }
 
-#minimo {
+.minimo {
     width: 70px;
     font-size: 11px;
     padding: 3px;
@@ -371,7 +366,7 @@ main {
     margin-left: 5px;
 }
 
-#maximo {
+.maximo {
     width: 70px;
     font-size: 11px;
     padding: 3px;
@@ -407,7 +402,7 @@ main {
     background-color: rgb(255, 255, 255);
     margin: 10px;
     border-radius: 5px;
-    box-shadow: 0px 0px 1px 0.1px rgb(168, 168, 168);
+    box-shadow: 0px 0px 2px 0.1px rgb(168, 168, 168);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -452,7 +447,7 @@ main {
     margin-bottom: 6px;
 }
 
-#descuento-producto {
+.descuento-producto {
     font-size: 10px;
     margin-left: 5.5px;
     color: rgb(53, 185, 116);
@@ -487,7 +482,7 @@ main {
     color: rgb(163, 163, 163);
 }
 
-#alert {
+.alert {
     width: 13px;
     margin-left: 10px;
     margin-right: 10px;
@@ -496,13 +491,13 @@ main {
 .numeros-paginas {
     display: flex;
     height: 60px;
-    margin: 40px 0px 0px 270px;
+    margin: 40px 0 0 270px;
     align-items: baseline;
     font-size: 14px;
     color: #666;
 }
 
-#numeros-paginas-uno {
+.numeros-paginas-uno {
     padding: 5px 10px 5px 10px;
     background-color: rgb(218, 216, 216);
     margin-right: 10px;
@@ -531,7 +526,7 @@ main {
 .info-footer p {
     background-color: white;
     font-size: 11px;
-    padding: 10px 10px 0px 10px;
+    padding: 10px 10px 0 10px;
     border-radius: 3px;
     color: #666;
 }
@@ -582,7 +577,7 @@ footer {
     cursor: pointer;
 }
 
-#filtro-productos-hp-id {
+.filtro-productos-ordenar {
     color: rgb(58, 58, 58);
     margin-right: 5px;
     cursor: default;
